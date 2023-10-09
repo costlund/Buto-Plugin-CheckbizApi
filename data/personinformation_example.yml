@@ -1,0 +1,46 @@
+responseCode: Ok
+responseMessage: ''
+ssnStatus: Active
+basic:
+  firstName: 'James 007'
+  givenName: 'James'
+  surName: Bond
+  middleName: null
+  lastName: Bond
+  co: null
+  street: '30 Wellington Square'
+  zipCode: ''
+  city: Chelsea
+  extendedAddress: null
+  foreignAddress1: null
+  foreignAddress2: null
+  foreignAddress3: null
+  foreignCountry: null
+  apartmentNumber: null
+  entrance: null
+  extraAddressField: null
+  streetName: Wellington Square
+  streetNumber: '30'
+extended:
+  municipality: Chelsea
+  municipalityCode: '1234'
+  parish: 'Chelsea assembly'
+  parishCode: '123456'
+  district: null
+  districtCode: null
+  county: 'Chelse count'
+  countyCode: '99'
+  nextBirthDay: '2024-06-22'
+  dateOfBirth: '1967-06-22'
+  age: 56
+  gender: Male
+  isMarried: true
+  socialStatusWith: 'Unknonw'
+  socialStatusWithSSN: ''
+  numberOfCompanyInvolvements: 0
+  latitude: '56.67932'
+  longitude: '12.82952'
+  formOfHousing: V
+  regDate: '2013-04-01T00:00:00'
+  changeDate: '2013-04-03T00:00:00'
+  houseHoldRegDate: '2013-04-01T00:00:00'
