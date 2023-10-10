@@ -1,7 +1,12 @@
 <?php
 class PluginCheckbizApi{
-  public $token = null;
+  private $settings = null;
+  private $token = null;
   private $url = 'https://api.checkbiz.se/api/v1';
+  function __construct(){
+    $this->settings = new PluginWfYml(wfGlobals::getAppDir().'/../buto_data/theme/[theme]/checkbiz.yml');
+    $this->token = $this->settings->get('token');
+  }
   public function get_personalinformation($SSN){
     wfPlugin::includeonce('server/json');
     $server = new PluginServerJson();
