@@ -1,5 +1,9 @@
-version: 1.2.0
+version: 1.2.1
 history:
+  1.2.1:
+    date: '2023-10-16'
+    title: 'Readme'
+    description: 'Readme update.'
   1.2.0:
     date: '2023-10-10'
     title: 'Token'

@@ -15,3 +15,16 @@ wfHelp::print($checkbiz_api->get_personalinformation('a swedish pid'));
 ```
 /plugin/checkbiz/api/data/personinformation_example.yml
 ```
+
+### Settings
+```
+plugin:
+  checkbiz:
+    api:
+      settings:
+        token: 'yml:/../buto_data/theme/[theme]/checkbiz.yml'
+```
+In file.
+```
+token: my_token
+```
